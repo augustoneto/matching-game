@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+
+  <title>Matching Game</title>
+  <meta name="author" content="Augusto Neto">
+
+<style>
+  img {
+    position: absolute;
+  }
+  div {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+  #rightSide {
+    left: 500px;
+    border-left: 1px solid black;
+  }
+</style>
+
+</head>
+
+<body onload="generateFaces()">
+
+<h2>Matching Game</h2>
+<p>Click on the extra smiling face on the left.<p>
+
+<div id="leftSide"></div>
+<div id="rightSide"></div>
+
+<script src="game_rules.js">
+</script>
+
+</body>
+
+</html>
